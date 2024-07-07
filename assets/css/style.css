@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -19,5 +20,27 @@ header {
 .logo {
   display: flex;
   align-items: center;
+}
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.nav-ativo:hover {
+  background-color: #39aae1;
+  color: #fff;
 }
