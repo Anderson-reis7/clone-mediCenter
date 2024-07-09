@@ -130,17 +130,7 @@ nav a:hover {
 .banner_opacoes a:hover {
   background-color: #30aae0;
 }
-/*
-.dia_horas {
-  font-size: 13px;
-  display: flex;
-  justify-content: space-between;
-}
-.dias div,
-.horas div {
-  margin-top: 14px;
-}
-*/
+
 table tr td {
   border-bottom: 1px solid;
   padding-bottom: 10px;
@@ -150,4 +140,92 @@ table tr td {
 
 .horas {
   padding-left: 100px;
+}
+
+#geral {
+  display: flex;
+  justify-content: center;
+}
+
+#geral section {
+  flex: 2;
+}
+
+#geral aside {
+  flex: 1;
+}
+
+.widget_titulo {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.widget_titulo_texto {
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.widget_titulo_bar {
+  width: 50px;
+  height: 2px;
+  background-color: #36e9e1;
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+
+article a {
+  text-decoration: none;
+}
+
+article .nova_data {
+  display: flex;
+}
+
+article .novo_post_at {
+  background-color: #2b4c99;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+}
+
+article .novos_comentarios {
+  background-color: #30aae1;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  margin-left: 2px;
+}
+
+article .nova_thumbnail {
+  margin-top: 30px;
+}
+
+article .nova_thumbnail img{
+  width: 100%;
+  height: auto;
+}
+
+article .novo_titulo {
+  margin: 25px 0px 25px 0px;
+  color: #000000;
+  font-size: 23px;
+}
+
+article .novos_resumo {
+  color: #5c5c5c;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
