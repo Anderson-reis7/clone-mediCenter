@@ -184,7 +184,6 @@ article {
   margin-right: 20px;
 }
 
-
 article a {
   text-decoration: none;
 }
@@ -212,7 +211,7 @@ article .nova_thumbnail {
   margin-top: 30px;
 }
 
-article .nova_thumbnail img{
+article .nova_thumbnail img {
   width: 100%;
   height: auto;
 }
@@ -228,4 +227,85 @@ article .novos_resumo {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 30px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape-menu {
+  display: flex;
+}
+
+.rp_1,
+.rp_2,
+.rp_3 {
+  flex: 1;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.rp_1 {
+  background-color: #39aae1;
+}
+
+.rp_2 {
+  background-color: #0079c7;
+}
+
+.rp_3 {
+  background-color: #2b4c99;
+}
+
+.rodape_area {
+  display: flex;
+  color: #ffffff;
+}
+
+.area {
+  flex: 1;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.texto_rodape {
+  color: #ffffff;
+}
+
+.rodape_copy {
+  border-top: 1px solid #2c2c2c;
+  color: #5c5c5c;
+  line-height: 40px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.corpo_rodape_padding {
+  padding: auto;
+}
+
+.corpo_rodape {
+  display: flex;
+}
+
+.texto_rodape_contatos {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #727272;
+}
+
+.texto_rodape_departamentos {
+  color: #727272;
+  font-size: 14px;
+}
+
+.texto_rodape_numeros {
+  color: #727272;
+  margin-left: auto;
+  font-size: 14px;
+  align-self: flex-end;
 }
